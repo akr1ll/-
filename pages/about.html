@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="shortcut icon" href="iconlogo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас</title> 
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="./about.html">О нас</a></li>
+        <li><a href="./contact.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>Мы являемся самым лучшим и самым надежным произовдителем текстиля в России!</p>
+    <img src="../img/textile3.jpg" class="photo2" alt="Ткани"> <img src="../img/textile4.jpg" class="photo2" alt="Ткань">
+    <table>
+        <tr>
+            <th>Название ткани</th>
+            <th>Тип ткани</th>
+            <th>Краткое описание</th>
+        </tr>
+        <tr>
+            <td>Хлопок</td>
+            <td>Натуральная ткань</td>
+            <td>Дышащий материал, идеальный для одежды</td>
+        </tr>
+        <tr>
+            <td>Шелк</td>
+            <td>Природный белковый материал</td>
+            <td>Мягкий и блестящий, используется для изготовления роскошных изделий</td>
+        </tr>
+        <tr>
+            <td>Полиэстер</td>
+            <td>Синтетическая ткань</td>
+            <td>Прочный и легкий материал, устойчивый к выцветанию</td>
+        </tr>
+    </table>
+    <h1>Здесь вы можете связаться с нами!</h1>
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="button" onclick="showMessage()">Отправить</button>
+      </form>
+  </main>
+  <script src="../script/script.js"></script>
+</body>
+</html>
